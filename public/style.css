@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+h1{
+	color: #753500fa;
+	text-align: center ;
+	font-size: 250%;
+	font-family: "Dela Gothic One", sans-serif;
+}
+h2{
+	color: #000000a8;
+	border: #0d6fe0c4 1px dotted;
+	border-left: #08aadb 10px solid;
+	padding: 5px 20px;
+	margin-bottom: 0;
+}
+h3{
+	color: #000000a8;
+	border: #0d6fe0c4 1px dotted;
+	border-left: #08aadb 10px solid;
+	padding: 5px 20px;
+	margin-bottom: 0;
+}
+a:link {color:#FF0000;} 
+a:visited {color:#00FF00;} 
+a:hover {color:#FF00FF;}
+a:active {color:#0000FF;}
+
+background-color可改變背景顏色
+a:link {color:#7e0000; background-color:#00FF00;} 
+body{
+	background-position: center;
+	background-color: #0c5edac2;
+	background-image: url(網址 或 檔案名稱.png .jpg .gif);
+	background-size: 600px ;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+div{ background-color: #cffebe }
+
+#wrap{
+	width: 798px;
+	margin: 40px auto;
+	padding: 40px 80px;
+	border: #f6bb9e 1px solid;
+	background-color: #fff;
+}
+#top
+{
+	position:fixed;
+	bottom:5px;
+	right:5px;
+}
+.photo{
+	float:left;
+	margin-right:30px;
+}
+
+div {
+	overflow: auto;
+	}
+	

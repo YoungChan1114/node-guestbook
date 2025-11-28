@@ -1,0 +1,86 @@
+body {
+    background-color: #0a0f1f;
+    color: #00e0ff;
+    font-family: "Iceland", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    user-select: none;
+}
+
+/* Iceland 字體設定 */
+.iceland-regular {
+    font-family: "Iceland", sans-serif;
+    font-weight: 1000;
+    font-style: bold;
+}
+
+/* 標題 */
+h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff;
+    margin-bottom: 10px;
+}
+
+/* 分數區 */
+#scoreBoard {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00e0ff;
+    text-shadow: 0 0 8px #00e0ff;
+}
+
+/* 開始按鈕 */
+#buttonStart {
+    background: linear-gradient(90deg, #00e0ff, #0077ff);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00e0ff;
+    transition: all 0.25s ease-in-out;
+}
+
+#buttonStart:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #00e0ff, 0 0 50px #0077ff;
+}
+
+/* 遊戲畫布 */
+canvas {
+    background-color: #111;
+    border: 2px solid #00e0ff;
+    box-shadow: 0 0 30px #00e0ff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 分數閃光動畫 */
+@keyframes flashEffect {
+    0% {
+        transform: scale(1);
+        color: #00e0ff;
+        text-shadow: 0 0 8px #00e0ff;
+    }
+    50% {
+        transform: scale(1.4);
+        color: #ffffff;
+        text-shadow: 0 0 20px #00ffff, 0 0 40px #00e0ff;
+    }
+    100% {
+        transform: scale(1);
+        color: #00e0ff;
+        text-shadow: 0 0 8px #00e0ff;
+    }
+}
+
+.flash {
+    animation: flashEffect 0.4s ease-in-out;
+}
