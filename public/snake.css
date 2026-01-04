@@ -29,7 +29,6 @@ h1 {
     color: #00e0ff;
     text-shadow: 0 0 8px #00e0ff;
 }
-
 /* 開始按鈕 */
 #buttonStart {
     background: linear-gradient(90deg, #00e0ff, #0077ff);
@@ -42,12 +41,10 @@ h1 {
     box-shadow: 0 0 15px #00e0ff;
     transition: all 0.25s ease-in-out;
 }
-
 #buttonStart:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px #00e0ff, 0 0 50px #0077ff;
 }
-
 /* 遊戲畫布 */
 canvas {
     background-color: #111;
@@ -61,7 +58,6 @@ canvas {
   font-weight: 400;
   font-style: normal;
 }
-
 /* 分數閃光動畫 */
 @keyframes flashEffect {
     0% {
